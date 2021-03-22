@@ -1,0 +1,160 @@
+
+
+*{ margin-top: 10px;
+margin-bottom: 0;
+margin-left: 0;
+background-color: #ff9999;
+font-family:Arial, Helvetica, sans-serif ;
+font-size: 12;}
+
+main{padding-top: 100px; padding-bottom: 20px;}
+
+div.titulo_principal{margin-left: 40px;
+    margin-right: 9em;
+    margin-bottom: 0;
+    }
+
+
+
+img.logo{
+        text-align: start;
+        vertical-align: middle;
+        margin-bottom: 0
+}
+
+div.audio{
+     text-align: center;
+}
+/* Centramos los elementos de vídeo y foto y justificamos texto */
+div.texto{ margin-left: 9em;
+            margin-right: 9em;
+            text-align: justify;
+            line-height : 25px;
+             }
+
+div.video{
+    text-align:center;}
+
+
+div.foto{text-align:center}
+
+/* Hacemos el menú horizontal, es una lista desordenada con la etiqueta de clase horizontal */
+ul.horizontal{ 
+    width: 95%;
+    text-align: left ;
+    margin: 0;
+
+}
+
+
+ul.horizontal li{
+    width :20%;
+    text-align: center;
+    display:inline;
+    float: left;
+
+    
+    
+}
+ul.horizontal li a {
+        display: block;
+        padding-top: 12px;
+        padding-bottom:12px;
+        background-color: #720000;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 200;
+        text-decoration: none;
+        border-bottom: 4px solid #ff9999
+}
+
+ul.horizontal li a:hover{background-color:  #3b0808;
+            color: #d60505;
+            font-weight: bolder;
+            border-bottom: 4px solid #d60505}
+
+
+/* Ponemos en negrita las páginas principales en el índice */
+  
+li.principal a{ font-weight: bold;}
+
+/* Tenemos muchas referencias APA que citar, las ponemos en italic */
+cite{font-size: 12;
+    font-style: italic;
+
+}
+footer{ background-color: #720000; color: white; text-align: center; } 
+
+
+h1{
+    font-size: 40px;
+    color:  #990000;
+    display: inline;
+    text-align: initial;}
+
+
+h2{ 
+    padding: 50px;
+    font-size: 30px;
+    color:  #660000;
+    text-align: center}
+
+
+h3{ padding: 20px;
+    font-weight: bolder;
+     font-size: 24px;
+     color: #330000}
+
+h4{
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 20px;}
+
+a:link{
+    color: #ff1a1a;
+    font-size: 12
+    }
+a:visited{
+    color: #4d0000;
+    }
+a:active{
+    color:white;
+    }
+
+table{
+     border-collapse: collapse;
+    border-color: black;}
+
+th.principal{
+             background-color:#720000;
+             color: #ff9999;
+             text-align: center
+}
+
+
+th.titulo{
+                background-color: #3b0808;
+                color: white;
+                text-align: center;
+                 
+}
+
+
+td{/* Un poco más oscuro que el fondo de la página para resaltar la tabla*/
+    background-color:#ff7474 ;}
+
+
+
+
+td.important{/* Los nombres de las técnicas terapéuticas son importantes y se han de destacar, copiamos el formato de la línea principal un poco más oscuro */
+            background-color:#490000;
+            color: #ff9999;
+            text-align: center
+}
+
+
+
+
+
+
+
